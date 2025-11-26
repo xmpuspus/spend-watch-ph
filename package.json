@@ -1,0 +1,67 @@
+{
+  "name": "spend-watch-ph",
+  "version": "1.0.0",
+  "description": "Philippine Government Procurement Intelligence Platform - Explore PhilGEPS data with transparency powered by AI",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css}\"",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "@duckdb/duckdb-wasm": "^1.28.0",
+    "@tanstack/react-query": "^5.59.0",
+    "apache-arrow": "^17.0.0",
+    "d3": "^7.9.0",
+    "framer-motion": "^11.11.0",
+    "lucide-react": "^0.453.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.0.1",
+    "recharts": "^2.13.0",
+    "remark-gfm": "^4.0.0",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.15",
+    "@types/d3": "^7.4.3",
+    "@types/node": "^22.7.0",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "@typescript-eslint/eslint-plugin": "^8.8.0",
+    "@typescript-eslint/parser": "^8.8.0",
+    "@vitejs/plugin-react": "^4.3.2",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.12.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc-fb9a90fa48-20240614",
+    "eslint-plugin-react-refresh": "^0.4.12",
+    "postcss": "^8.4.47",
+    "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.8"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "philgeps",
+    "government-procurement",
+    "philippines",
+    "transparency",
+    "open-data",
+    "ai",
+    "claude",
+    "data-visualization"
+  ],
+  "author": "SpendWatch PH Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/spend-watch-ph.git"
+  }
+}
