@@ -43,5 +43,5 @@ coverage/
 .eslintcache
 .cache/
 
-# Data folder (host large files separately)
-data/
+# Data folder (host large files separately, but keep public/data for demo)
+/data/
