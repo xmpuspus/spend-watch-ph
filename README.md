@@ -151,15 +151,12 @@ npm run preview      # Preview production build
 ```
 spend-watch-ph/
 ├── src/
-│   ├── components/         # React components
-│   ├── services/           # Service integrations
-│   ├── stores/             # State management
-│   ├── types/              # TypeScript definitions
-│   ├── utils/              # Utility functions
-│   └── App.tsx             # Main application
-├── data/
-│   └── philgeps.parquet    # PhilGEPS dataset
-└── public/                 # Static assets
+│   ├── App.tsx             # Main application (self-contained)
+│   ├── main.tsx            # Entry point
+│   └── index.css           # Global styles
+├── public/
+│   └── data/               # Demo dataset
+└── data/                   # Large datasets (gitignored)
 ```
 
 ---
