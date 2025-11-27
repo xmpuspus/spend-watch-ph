@@ -8,6 +8,8 @@ Explore PhilGEPS (Philippine Government Electronic Procurement System) data with
 [![React](https://img.shields.io/badge/React-18.3-61dafb.svg)](https://reactjs.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+**[Live Demo](https://spend-watch-ph.onrender.com/)**
+
 ---
 
 ## Overview
@@ -37,7 +39,7 @@ SpendWatch PH is an open-source platform that makes Philippine government procur
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/spend-watch-ph.git
+git clone https://github.com/xmpuspus/spend-watch-ph.git
 cd spend-watch-ph
 
 # Install dependencies
